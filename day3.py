@@ -12,6 +12,13 @@ def task(i):
 #arg = list(range(3))
 
 start = time.time()
+
+
+
+
+
+
+
 tread_list = []
 for i in range(3):
     t = threading.Thread(target = task,args = (i,))
