@@ -32,4 +32,5 @@ for t in tread_list:
 #pool.close()
 #pool.join()
 end = time.time()
+print('helle world')
 print('runing {}s'.format(end-start))
